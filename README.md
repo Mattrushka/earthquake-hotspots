@@ -14,11 +14,11 @@ Visualization project for Earthquake Hotspots based on the [USGS data feed](http
 The core functionalities are located in the `shaked.js` inside the `/js` folder.  
 
 #For the Future
-- improve script performance (currently the animation can parse approximately max. 100-150 json data-entries without crashing)
-- split `shaked.js` into separate files with functionalities belonging together, e.g one js file for loading the data feed, one for building the UI and so on.
+- improve script performance (currently the animation can render approx. 100-150 max. JSON data-entries before slowing down the browser...or crashing it)
+- split `shaked.js` into separate files with similar functionalities, e.g one js file for loading the data feed, one for building the UI and so on
 - add TopoJSON as a git submodule for easier updates (been too git-lazy to do this...)  
 - automatically refresh the page after one hour 
 
-#Contributing
-I am open for all of your ideas, contributions and feedback.
+#Contribute
+All ideas, contributions and feedback are highly appreciated and welcome
 
