@@ -14,6 +14,7 @@ The core functionalities are located in the `shaked.js` inside the `/js` folder.
 - improve script performance (currently the animation can parse approximately max. 100-150 json data-entries without crashing)
 - split `shaked.js` into separate files with functionalities belonging together, e.g one js file for loading the data feed, one for building the UI and so on.
 - add TopoJSON as a git submodule for easier updates (been too git-lazy to do this...)  
+- automatically refresh the page after one hour 
 
 #Contributing
 I am open for all of your ideas, contributions and feedback.
