@@ -1,0 +1,56 @@
+<!Doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>USGS Earthquake Hotspots</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700' rel='stylesheet' type='text/css'>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div id="UI">
+        <div id="leftBox">
+            <h1>Real-Time Earthquake Data</h1>
+            <p class="source">Updated every minute<br/>Data Source: <a href="http://www.usgs.gov" target="_blank" title="U.S. Geological Survey">USGS</a></p>
+        </div>
+        <div id="middleBox">
+            <ul id="feedNav">
+            	<li><a href="javascript:getFeed('http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojsonp', 'feed1', 0)" id="feed1"><strong>01</strong><br />HOUR<br/>All Earthquakes</a></li>
+            	<li><a href="javascript:getFeed('http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojsonp', 'feed2', 0)" id="feed2" class="active"><strong>24</strong><br />HOURS<br/>All Earthquakes</a></li>
+            	<li><a href="javascript:getFeed('http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojsonp', 'feed3', 0)" id="feed3"><strong>07</strong><br />DAYS<br/>4.5+ Earthquakes</a></li>
+            </ul>
+         </div>
+         <div id="rightBox">
+
+            <p id="info"><a href="#">Overview</a></p>
+        </div>
+    </div>
+    <div id="infoBox">
+                <div id="infoSlider">
+
+                </div>
+            </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+         <script>document.write('<script src="js/vendor/d3.min.js"><\/script>')</script>
+         <script src="http://d3js.org/queue.v1.min.js"></script>
+         <script src="http://d3js.org/topojson.v1.min.js"></script>
+         <script src="js/vendor/jquery.slimscroll.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/shaked.js"></script>
+
+    </body>
+</html>

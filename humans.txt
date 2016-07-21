@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Matthäus Eckert -- Designer -- https://twitter.com/MattMagnetum
+
+# THANKS
+
+    friendlypath.de for the UX/UI feedback
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr, jquery SlimScroll, USGS Earthquake Data Feed, d3js.org,
