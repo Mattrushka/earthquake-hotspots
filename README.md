@@ -1,5 +1,8 @@
 # earthquake-hotspots
-Visualization project for Earthquake Hotspots based on the [USGS data feed](http://earthquake.usgs.gov/earthquakes/feed/).
+Visualization project for Earthquake Hotspots based on the [USGS data feed](http://earthquake.usgs.gov/earthquakes/feed/).  
+
+#Demo
+[Magnetum Projects](http://projects.magnetum.de/USGS/)
 
 #Libraries
 [D3](http://d3js.org) for the data visualization  
